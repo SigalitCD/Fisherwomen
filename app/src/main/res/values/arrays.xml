@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string-array name="settings_notifications_vibrate_entries">
+        <item>off</item>
+        <item>short</item>
+        <item>long</item>
+        <item>default</item>
+    </string-array>
+
+    <string-array name="settings_notifications_vibrate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="settings_notifications_popup_entries">
+        <item>No popup</item>
+        <item>Only when screen on</item>
+        <item>Only when screen off</item>
+        <item>always show popup</item>
+    </string-array>
+
+    <string-array name="settings_notifications_popup_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+
+</resources>

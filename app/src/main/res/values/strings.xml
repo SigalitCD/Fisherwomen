@@ -1,0 +1,32 @@
+<resources>
+<string name="app_name">Fisherwomen</string>
+<string name="bt_settings">...</string>
+<string name="bt_refresh">Refresh</string>
+<string name="bt_filter">Filter</string>
+<string name="hello_world">Hello world!</string>
+<string name="title">SEARCH RESULTS</string>
+<string name="tbl_c1">New</string>
+<string name="tbl_c10">Date</string>
+<string name="tbl_c2">Context</string>
+<string name="tbl_c3">Rooms</string>
+<string name="tbl_c4">Price</string>
+<string name="text_fragment">Details of Notice</string>
+<string name="action_settings">Settings</string>
+<string name="bt_saveFilter">Save</string>
+<string name="bt_clearFilter">Clear</string>
+<string name="bt_deleteFilter">Delete</string>
+<string name="tbl_c5">Site</string>
+
+
+
+<!-- settings strings -->
+<string name="title_activity_settings">My Beautiful Settings</string>
+<string name="title_notifications">Notifications</string>
+<string name="title_settings_notifications_vibrate">Vibrate:</string>
+<string name="title_settings_notifications_vibrate_dialog">Vibrate</string>
+<string name="title_settings_notifications_popup">Popup notification:</string>
+<string name="title_settings_notifications_popup_dialog">Popup</string>
+<string name="title_intent_preference">TitleIntentPreference</string>
+<string name="entryvalues_list_preference">entryvalues_list_preference</string>
+<!-- end of settings strings -->
+</resources>

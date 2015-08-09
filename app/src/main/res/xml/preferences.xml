@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory
+    android:title="@string/title_notifications">
+
+    <ListPreference
+        android:key="key_notifications_vibrate_preference"
+        android:title="@string/title_settings_notifications_vibrate"
+        android:summary="%s"
+        android:dialogTitle="@string/title_settings_notifications_vibrate_dialog"
+        android:entries="@array/settings_notifications_vibrate_entries"
+        android:entryValues="@array/settings_notifications_vibrate_values"
+        android:defaultValue="0"/>
+
+
+    <ListPreference
+        android:key="key_notifications_popup_preference"
+        android:title="@string/title_settings_notifications_popup"
+        android:summary="%s"
+        android:dialogTitle="@string/title_settings_notifications_popup_dialog"
+        android:entries="@array/settings_notifications_popup_entries"
+        android:entryValues="@array/settings_notifications_popup_values"
+        android:defaultValue="0"/>
+
+
+    <Preference
+        android:title="@string/title_intent_preference">
+        <intent android:action="android.intent.action.VIEW"
+            android:data="http://codepath.com/" />
+    </Preference>
+
+</PreferenceCategory>
+</PreferenceScreen>
